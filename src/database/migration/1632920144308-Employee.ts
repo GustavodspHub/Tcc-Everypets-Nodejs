@@ -1,4 +1,4 @@
-import { table } from "console";
+
 import {MigrationInterface, QueryRunner, Table} from "typeorm";
 
 export class Employee1632920144308 implements MigrationInterface {
