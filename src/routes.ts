@@ -1,1 +1,5 @@
-const rotas = require("express").Router();
+import {Router} from "express";
+
+const router = Router();
+
+export default router;

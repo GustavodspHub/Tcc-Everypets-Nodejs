@@ -1,5 +1,12 @@
-const app = require("./app.ts");
+import "reflect-metadata";
+import express from "express";
+import "./database/connection.ts";
+import routes from "./routes"
 
-app.listen(3333, () => {
-    console.log(`Servidor rodando na porta ${3333}`);
-});
+const app = express();
+
+app.use(express.json());
+
+app.use(routes);
+
+app.listen(3333, () => console.log(`Servidor rodando na porta ${3333}`));
