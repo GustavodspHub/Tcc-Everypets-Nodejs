@@ -1,21 +1,20 @@
 {
-   "name": "everypetsnodejs",
-   "version": "1.0.0",
-   "main": "index.js",
-   "license": "MIT",
-   "devDependencies": {
-      "ts-node-dev": "^1.1.8",
-      "typescript": "3.3.3333",
-      "ts-node": "3.3.0",
-      "@types/node": "^8.0.29"
-   },
-   "scripts": {
-      "dev": "ts-node-dev src/*",
-      "start": "ts-node src/index.ts"
-   },
-   "dependencies": {
-      "mysql": "^2.14.1",
-      "typeorm": "0.2.37",
-      "reflect-metadata": "^0.1.10"
-   }
+  "name": "api_every_pets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.13",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  }
 }
